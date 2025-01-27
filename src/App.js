@@ -169,18 +169,6 @@ const FunnelAnalyzer = () => {
             </div>
           </div>
         </div>
-
-       <div style={{ padding: '16px', border: '1px solid #ddd', borderRadius: '8px', backgroundColor: 'white' }}>
-  <div style={{ borderBottom: '1px solid #ddd', paddingBottom: '8px', marginBottom: '16px' }}>
-    <h3 style={{ fontSize: '1.25rem', fontWeight: 'bold' }}>סיכום כלכלי</h3>
-  </div>
-  <div>
-    <p style={{ fontSize: '1rem' }}>השקעה כוללת: ₪{roi.cost.toLocaleString()}</p>
-    <p style={{ fontSize: '1rem' }}>הכנסות: ₪{roi.revenue.toLocaleString()}</p>
-    <p style={{ fontSize: '1rem' }}>החזר השקעה: {roi.roi.toFixed(1)}%</p>
-  </div>
-</div>
-
             <div className="space-y-4">
               <table className="w-full">
                 <thead>
